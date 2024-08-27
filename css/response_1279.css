@@ -1,0 +1,549 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: 20px;
+    }
+
+    .swiper-button-next
+    {
+        right: 20px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 40px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .tabs::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .tabs .btn
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+
+        scroll-snap-align: start;
+    }
+
+    .tabs .btn + .btn
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .get_in_touch_btn
+    {
+        padding: 8px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .columns
+    {
+        column-gap: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+
+
+    /*----------------
+        Stats info
+    ----------------*/
+    .stats_info .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+
+    .stats_info .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .stats_info .item.center
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .stats_info .item .desc
+    {
+        font-size: 16px;
+        line-height: 28px;
+
+        letter-spacing: .4px;
+    }
+
+
+
+    /*---------------------
+        Experience info
+    ---------------------*/
+    .experience_info
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .experience_info .row
+    {
+        margin-bottom: -60px;
+        margin-left: -44px;
+    }
+
+
+    .experience_info .row > *
+    {
+        width: calc(50% - 44px);
+        margin-bottom: 60px;
+        margin-left: 44px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .swiper
+    {
+        overflow: hidden !important;
+    }
+
+    .projects .swiper.view2
+    {
+        overflow: visible !important;
+    }
+
+
+    .projects .swiper-slide
+    {
+        width: 320px;
+    }
+
+
+    .projects .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .projects .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+
+    .persons .row > *
+    {
+        width: calc(25% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        justify-content: space-between;
+
+        margin-bottom: -40px;
+        margin-left: auto;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .row > *
+    {
+        width: auto;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .row > *.socials
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .text_block
+    {
+        width: calc(100% - 306px);
+    }
+
+
+    .about_info .with_image
+    {
+        padding: 59px 40px 50px;
+    }
+
+
+    .about_info .with_image .text_block
+    {
+        width: 648px;
+    }
+
+
+    .about_info .with_image .logo
+    {
+        right: 26px;
+        bottom: 100%;
+
+        width: 244px;
+        height: 271px;
+        margin-bottom: -10px;
+        padding: 30px 60px;
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .item .data
+    {
+        width: calc(50% - 48px);
+    }
+
+
+    .our_approach .item .image
+    {
+        height: 320px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .why_we .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .row
+    {
+        margin-bottom: -60px;
+        margin-left: -60px;
+    }
+
+
+    .partners .row > *
+    {
+        width: calc(20% - 60px);
+        margin-bottom: 60px;
+        margin-left: 60px;
+    }
+
+
+
+    /*-------------------
+        About company
+    -------------------*/
+    .about_company .image
+    {
+        height: 320px;
+    }
+
+
+
+    /*---------------
+        Team info
+    ---------------*/
+    .team_info .data
+    {
+        padding: 36px 40px;
+    }
+
+
+
+    /*------------------
+        History head
+    ------------------*/
+    .history_head .data
+    {
+        width: calc(100% - 298px);
+    }
+
+
+    .history_head .image .slogan
+    {
+        right: 24px;
+        bottom: 137px;
+
+        width: 265px;
+        height: 234px;
+        margin-right: 0;
+        padding: 40px;
+    }
+
+
+
+    /*------------------
+        History info
+    ------------------*/
+    .history_info .item .desc
+    {
+        width: calc(50% - 100px);
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .row > *
+    {
+        width: calc(33.333% - 16px);
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .data
+    {
+        width: 480px;
+
+        gap: 40px 24px;
+    }
+
+
+    .project_info .item
+    {
+        padding-left: 23px;
+    }
+
+
+    .project_info .item .val
+    {
+        font-size: 18px;
+    }
+
+
+    .project_info .images
+    {
+        width: calc(100% - 520px);
+    }
+
+
+
+    /*----------------
+        Industries
+    ----------------*/
+    .industries .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .industries .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------------------
+        Industries categories
+    ---------------------------*/
+    .industries_categories .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .industries_categories .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .industries_categories .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .industries_categories .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+
+        scroll-snap-align: start;
+    }
+
+    .industries_categories .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*--------------------
+        Services links
+    --------------------*/
+    .services_links .row
+    {
+        justify-content: center;
+
+        margin-left: -35px;
+    }
+
+
+    .services_links .row > *
+    {
+        margin-left: 35px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .sub,
+    .service_info .sub.center
+    {
+        justify-content: flex-start;
+
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+
+    .service_info .sub > *
+    {
+        max-width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 35px 24px 48px;
+    }
+}

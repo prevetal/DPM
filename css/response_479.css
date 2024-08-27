@@ -1,0 +1,252 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 24px;
+        line-height: normal;
+
+        letter-spacing: .6px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        font-size: 30px;
+        line-height: 42px;
+
+        width: 213px;
+    }
+
+
+
+    /*---------------------
+        Experience info
+    ---------------------*/
+    .experience_info .row
+    {
+        margin-left: 0;
+    }
+
+
+    .experience_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-left: 0;
+    }
+
+
+    .contacts_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .phone,
+    .contacts_info .email,
+    .contacts_info .location
+    {
+        font-size: 16px;
+
+        letter-spacing: .4px;
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .item:before
+    {
+        display: none;
+    }
+
+
+    .our_approach .item .title
+    {
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+
+        border-bottom: 2px solid #c3002f;
+    }
+
+
+
+    /*-------------------
+        About company
+    -------------------*/
+    .about_company:before
+    {
+        display: none;
+    }
+
+
+    .about_company .title
+    {
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+
+        border-bottom: 2px solid #c3002f;
+    }
+
+
+
+    /*--------------
+        We offer
+    --------------*/
+    .we_offer .item .number
+    {
+        font-size: 64px;
+
+        letter-spacing: 1.6px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy .title
+    {
+        font-size: 22px;
+    }
+
+
+    .vacancies .vacancy .summary,
+    .vacancies .vacancy .desc
+    {
+        max-width: 100%;
+    }
+
+
+    .vacancies .vacancy .spoler_btn
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .vacancies .vacancy .spoler_btn svg
+    {
+        width: 8px;
+        height: 11px;
+    }
+
+
+
+    /*---------------
+        Team info
+    ---------------*/
+    .team_info .data
+    {
+        padding: 28px 20px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .keys .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .person_info .keys .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .person_info .keys .item
+    {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+
+    /*-----------------
+        Safety info
+    -----------------*/
+    .safety_info .item .number
+    {
+        font-size: 64px;
+
+        letter-spacing: 1.6px;
+    }
+
+
+
+    /*--------------------
+        Services links
+    --------------------*/
+    .services_links .row
+    {
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        scroll-padding: 0 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links
+    {
+        width: 100%;
+    }
+
+
+    footer .links + .links
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 35px 20px 40px;
+    }
+}

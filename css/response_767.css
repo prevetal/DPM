@@ -1,0 +1,963 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 24px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        display: none;
+
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 8px;
+        height: 11px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        right: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.big_m
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 500px;
+        padding-top: 40px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 52px;
+
+        width: 280px;
+
+        letter-spacing: .75px;
+    }
+
+
+
+    /*----------------
+        Stats info
+    ----------------*/
+    .stats_info .row
+    {
+        margin-bottom: -48px;
+        margin-left: 0;
+    }
+
+
+    .stats_info .row > *,
+    .stats_info .row > *.center
+    {
+        width: 100%;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+
+
+    .stats_info .item
+    {
+        min-height: 0;
+        padding-left: 15px;
+    }
+
+
+    .stats_info .item .val
+    {
+        font-size: 32px;
+
+        margin-bottom: 16px;
+    }
+
+
+
+    /*---------------------
+        Experience info
+    ---------------------*/
+    .experience_info
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .experience_info .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+
+    .experience_info .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .experience_info .item .val
+    {
+        font-size: 18px;
+    }
+
+
+    .experience_info .item .val span
+    {
+        font-size: 32px;
+    }
+
+
+    .experience_info .item .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 10px;
+
+        letter-spacing: .4px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .swiper
+    {
+        overflow: visible !important;
+    }
+
+
+    .projects .swiper-slide,
+    .projects .view2 .swiper-slide
+    {
+        width: 280px;
+    }
+
+
+    .projects .project .thumb
+    {
+        padding-bottom: 100%;
+    }
+
+
+    .projects .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .projects .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row.default
+    {
+        margin-bottom: -64px;
+        margin-left: -20px;
+    }
+
+
+    .services .row.default > *
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-bottom: 64px;
+        margin-left: 20px;
+    }
+
+
+    .services .default .service .letter
+    {
+        font-size: 37.849px;
+
+        width: 110px;
+        height: 110px;
+        margin-bottom: 28px;
+    }
+
+
+    .services .default .service .name
+    {
+        font-size: 18px;
+
+        letter-spacing: .45px;
+    }
+
+
+    .services .default .service .btn
+    {
+        margin-top: 20px;
+    }
+
+
+    .services .row:not(.default)
+    {
+        margin-left: 0;
+    }
+
+
+    .services .row:not(.default) > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services .row > *.sep
+    {
+        display: none;
+    }
+
+
+    .services .row:not(.default) .service
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .services .row:not(.default) .service .letter
+    {
+        font-size: 30.968px;
+
+        width: 90px;
+        height: 90px;
+        margin: 0;
+
+        letter-spacing: .774px;
+    }
+
+
+    .services .row:not(.default) .service .name
+    {
+        align-self: center;
+
+        width: calc(100% - 118px);
+        margin-left: auto;
+
+        text-align: left;
+    }
+
+
+    .services .row:not(.default) .service .sub
+    {
+        width: 240px;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .services .row:not(.default) .service .spoler_btn
+    {
+        position: relative;
+
+        justify-content: flex-end;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .services .row:not(.default) .service .spoler_btn:before
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        display: block;
+
+        width: calc(100% - 95px);
+        height: 1px;
+        margin: auto 0;
+
+        content: '';
+
+        background: #c3002f;
+    }
+
+
+    .services .row:not(.default) .service .spoler_btn span,
+    .services .row:not(.default) .service .spoler_btn.active span + span
+    {
+        display: block;
+    }
+
+
+    .services .row:not(.default) .service .spoler_btn.active span,
+    .services .row:not(.default) .service .spoler_btn span + span
+    {
+        display: none;
+    }
+
+
+    .services .row:not(.default) .service .spoler_btn .arr.bg1,
+    .services .row:not(.default) .service .spoler_btn .arr.bg2,
+    .services .row:not(.default) .service .spoler_btn .arr.bg3,
+    .services .row:not(.default) .service .spoler_btn .arr.bg4
+    {
+        background: #c3002f;
+    }
+
+
+    .services .row:not(.default) .service .spoler_btn .arr svg
+    {
+        top: 0;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+    .persons .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .persons .person
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .persons .person .head
+    {
+        order: 2;
+
+        margin: 0;
+    }
+
+
+    .persons .person .name
+    {
+        font-size: 16px;
+
+        letter-spacing: .4px;
+    }
+
+
+    .persons .person .photo
+    {
+        height: 245px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .text_block
+    {
+        width: 100%;
+    }
+
+
+    .about_info .with_image
+    {
+        padding: 40px;
+    }
+
+
+    .about_info .with_image .logo
+    {
+        display: none;
+    }
+
+
+    .about_info .with_image .bg
+    {
+        object-position: 0 50%;
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .head .title
+    {
+        padding: 40px 0;
+    }
+
+
+    .our_approach .item:before
+    {
+        top: 100px;
+    }
+
+
+    .our_approach .item .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 66px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-bottom: -20px;
+    }
+
+
+    .why_we .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .row
+    {
+        margin-bottom: -48px;
+        margin-left: -20px;
+    }
+
+
+    .partners .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 48px;
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding-bottom: 0;
+    }
+
+
+
+    /*--------------
+        We offer
+    --------------*/
+    .we_offer .item .number
+    {
+        font-size: 72px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .head .info
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 190px 0;
+    }
+
+
+    .error_info .data
+    {
+        width: 280px;
+        padding: 19px;
+    }
+
+
+    .error_info .code
+    {
+        font-size: 80px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .error_info .desc
+    {
+        font-size: 20px;
+
+        margin-top: 13px;
+
+        letter-spacing: .5px;
+    }
+
+
+    .error_info .link
+    {
+        margin-top: 25px;
+    }
+
+
+    .error_info .link a
+    {
+        font-size: 14px;
+
+        padding: 16px 20px;
+    }
+
+
+
+    /*---------------
+        Team info
+    ---------------*/
+    .team_info .data
+    {
+        padding: 28px;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .keys .item
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 12px 20px;
+    }
+
+
+
+    /*------------------
+        History head
+    ------------------*/
+    .history_head .data
+    {
+        width: 100%;
+    }
+
+
+    .history_head .image
+    {
+        height: auto;
+    }
+
+
+    .history_head .image img
+    {
+        position: relative;
+
+        width: 100%;
+        height: 170px;
+    }
+
+
+    .history_head .image .slogan
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        justify-content: flex-start;
+
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        padding: 30px 24px;
+    }
+
+
+
+    /*------------------
+        History info
+    ------------------*/
+    .history_info .list
+    {
+        padding: 0;
+    }
+
+
+    .history_info .list:before
+    {
+        display: none;
+    }
+
+
+    .history_info .item
+    {
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .history_info .item + .item
+    {
+        margin-top: -1px;
+    }
+
+
+    .history_info .item .year
+    {
+        font-size: 32px;
+        line-height: normal;
+
+        position: relative;
+        left: 0;
+
+        width: 80px;
+        height: auto;
+        margin: 0;
+
+        letter-spacing: .8px;
+    }
+
+
+    .history_info .item .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: calc(100% - 100px);
+        margin-left: auto;
+        padding: 20px 0;
+
+        text-align: left;
+        letter-spacing: .4px;
+
+        border: none;
+    }
+
+
+
+    /*-----------------
+        Safety info
+    -----------------*/
+    .safety_info .item .number
+    {
+        font-size: 72px;
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .row
+    {
+        margin-left: 0;
+    }
+
+
+    .files .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .data
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .project_info .item
+    {
+        width: 100%;
+    }
+
+
+    .project_info .item + .item
+    {
+        margin-top: 32px;
+    }
+
+
+    .project_info .item .label
+    {
+        margin-bottom: 15px;
+    }
+
+
+    .project_info .item .val
+    {
+        font-size: 18px;
+    }
+
+
+    .project_info .images .swiper-button-next,
+    .project_info .images .swiper-button-prev
+    {
+        display: flex;
+    }
+
+
+    .project_info .images .swiper-button-prev
+    {
+        left: 10px;
+    }
+
+    .project_info .images .swiper-button-next
+    {
+        right: 10px;
+    }
+
+
+
+    /*----------------------
+        Project features
+    ----------------------*/
+    .project_features:before
+    {
+        display: none;
+    }
+
+
+    .project_features .block_head
+    {
+        margin-bottom: 32px;
+        padding-bottom: 32px;
+
+        border-bottom: 2px solid #c3002f;
+    }
+
+
+
+    /*----------------
+        Industries
+    ----------------*/
+    .industries .row
+    {
+        margin-left: 0;
+    }
+
+
+    .industries .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .industries .item .thumb
+    {
+        padding-bottom: 85.625%;
+    }
+
+
+
+    /*---------------
+        About DPM
+    ---------------*/
+    .about_DPM .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------------
+        Services links
+    --------------------*/
+    .services_links .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 24px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .services_links .row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .services_links .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .services_links .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+
+        scroll-snap-align: start;
+    }
+
+    .services_links .row > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .sub,
+    .service_info .sub.center
+    {
+        margin-bottom: -20px;
+    }
+
+
+    .service_info .sub > *
+    {
+        max-width: calc(100% - 40px);
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links
+    {
+        width: calc(50% - 10px);
+        margin-top: 40px;
+    }
+
+
+    footer .links:nth-child(1),
+    footer .links:nth-child(2)
+    {
+        margin-top: 28px;
+    }
+
+
+
+    footer .contacts
+    {
+        display: block;
+
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+
+    footer .contacts > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .head
+    {
+        padding-right: 60px;
+        padding-left: 0;
+    }
+
+
+
+    .modal.success .text
+    {
+        font-size: 18px;
+    }
+}

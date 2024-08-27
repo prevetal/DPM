@@ -1,0 +1,523 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 42px;
+    }
+
+
+    header .menu,
+    header .get_in_touch_btn
+    {
+        display: none;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .title
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Stats info
+    ----------------*/
+    .stats_info .row
+    {
+        margin-bottom: -24px;
+        margin-left: -20px;
+    }
+
+
+    .stats_info .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 24px;
+        margin-left: 20px;
+    }
+
+
+    .stats_info .item.center
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-left: -86px;
+    }
+
+
+    .services .row > *
+    {
+        width: calc(50% - 130px);
+        max-width: calc(50% - 130px);
+        margin-left: 86px;
+    }
+
+
+    .services .row > *.sep:nth-child(4)
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Persons
+    -------------*/
+    .persons .row > *
+    {
+        width: calc(33.333% - 40px);
+    }
+
+
+
+    /*------------------
+        Our approach
+    ------------------*/
+    .our_approach .item .data
+    {
+        width: 100%;
+    }
+
+
+    .our_approach .item .image
+    {
+        order: 2;
+
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding-bottom: 52.197%;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .why_we .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .row
+    {
+        margin-bottom: -72px;
+        margin-left: -40px;
+    }
+
+
+    .partners .row > *
+    {
+        width: calc(25% - 40px);
+        margin-bottom: 72px;
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------------
+        About company
+    -------------------*/
+    .about_company .data
+    {
+        width: 100%;
+    }
+
+
+    .about_company .image
+    {
+        order: 2;
+
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding-bottom: 52.197%;
+    }
+
+
+
+    /*--------------
+        We offer
+    --------------*/
+    .we_offer .row
+    {
+        margin-left: 0;
+    }
+
+
+    .we_offer .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Upload resume
+    -------------------*/
+    .upload_resume
+    {
+        padding-top: 40px;
+    }
+
+
+    .upload_resume .block_head
+    {
+        width: 630px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+
+
+    .upload_resume .block_head .title br
+    {
+        display: block;
+    }
+
+
+    .upload_resume .form
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*-------------------
+        Have question
+    -------------------*/
+    .have_question
+    {
+        padding-top: 40px;
+    }
+
+
+    .have_question .block_head
+    {
+        width: 630px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+
+
+    .have_question .block_head .title br
+    {
+        display: block;
+    }
+
+
+    .have_question .form
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*------------------
+        Contacts map
+    ------------------*/
+    .contacts_map .cont
+    {
+        padding: 0;
+    }
+
+
+    .contacts_map #map
+    {
+        border-radius: 0;
+    }
+
+
+
+    /*-----------------
+        Person info
+    -----------------*/
+    .person_info .keys .row
+    {
+        margin-bottom: -40px;
+    }
+
+
+    .person_info .keys .row > *
+    {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+
+    .person_info .keys .item:nth-child(4n+3)
+    {
+        border-color: #cac8c8;
+    }
+
+    .person_info .keys .item:nth-child(3n+2)
+    {
+        border-color: transparent;
+    }
+
+
+    .person_info .keys .sep
+    {
+        order: 3;
+
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        History info
+    ------------------*/
+    .history_info .item .desc
+    {
+        width: calc(50% - 88px);
+    }
+
+
+
+    /*-----------------
+        Safety info
+    -----------------*/
+    .safety_info .row
+    {
+        margin-left: 0;
+    }
+
+
+    .safety_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Files
+    -----------*/
+    .files .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info .data
+    {
+        width: 512px;
+
+        gap: 24px;
+    }
+
+
+    .project_info .item .val
+    {
+        font-size: 20px;
+    }
+
+
+    .project_info .images
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Industries
+    ----------------*/
+    .industries .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------------
+        Industry info
+    -------------------*/
+    .industry_info .item
+    {
+        margin-top: 40px;
+        padding: 0;
+    }
+
+
+    .industry_info .item:before
+    {
+        display: none;
+    }
+
+
+    .industry_info .item .data
+    {
+        width: 100%;
+        padding-top: 40px;
+
+        border-top: 2px solid #c3002f;
+    }
+
+
+    .industry_info .item .text_block
+    {
+        margin: 0;
+    }
+
+
+    .industry_info .item .image
+    {
+        order: 2;
+
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        padding-bottom: 52.197%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 40px 0;
+    }
+
+
+    footer .logo img
+    {
+        height: 42px;
+    }
+
+
+    footer .links
+    {
+        margin-top: 28px;
+        margin-bottom: 0;
+    }
+
+
+    footer .contacts
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 40px;
+        padding-top: 27px;
+        padding-bottom: 28px;
+
+        border-top: 1px solid #cac8c8;
+    }
+
+
+    footer .contacts > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    footer .contacts .socials
+    {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 28px;
+
+        text-align: left;
+    }
+}
