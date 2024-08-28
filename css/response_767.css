@@ -302,8 +302,7 @@
 
     .services .row:not(.default) .service .sub
     {
-        width: 240px;
-        max-width: 100%;
+        width: 100%;
         margin-top: 20px;
     }
 
@@ -896,8 +895,7 @@
     /*------------------
         Service info
     ------------------*/
-    .service_info .sub,
-    .service_info .sub.center
+    .service_info .sub
     {
         margin-bottom: -20px;
     }
@@ -932,9 +930,6 @@
     footer .contacts
     {
         display: block;
-
-        padding-right: 8px;
-        padding-left: 8px;
     }
 
 
