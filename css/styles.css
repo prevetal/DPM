@@ -576,6 +576,12 @@ header .logo img
 
 
 
+header .menu_item
+{
+    position: relative;
+}
+
+
 header .menu_item + .menu_item
 {
     margin-left: 22px;
@@ -626,6 +632,93 @@ header .menu_item > a.active:after
 header .menu_item > a.active:after
 {
     background: #c3002f;
+}
+
+
+header .menu .sub_menu
+{
+    position: absolute;
+    z-index: 9;
+    top: 100%;
+    left: -24px;
+
+    visibility: hidden;
+
+    width: 200px;
+    min-width: 100%;
+    margin-top: 20px;
+    padding: 10px 24px;
+
+    transition: .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+    color: var(--text_color);
+    background: #fff;
+}
+
+
+header .menu_item:hover > a.touch_link + .sub_menu
+{
+    visibility: hidden;
+
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+header .menu_item:hover .sub_menu,
+header .menu_item > a.touch_link + .sub_menu.show
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+header .menu .sub_menu a
+{
+    font-size: 14px;
+    font-weight: 600;
+
+    position: relative;
+
+    display: block;
+
+    padding: 20px 0;
+
+    text-decoration: none;
+    letter-spacing: .35px;
+    text-transform: uppercase;
+
+    color: currentColor;
+}
+
+
+header .menu .sub_menu a:after
+{
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+
+    display: block;
+
+    width: 0;
+    height: 2px;
+
+    content: '';
+    transition: width .2s linear;
+
+    background: #c3002f;
+}
+
+
+header .menu .sub_menu a:hover:after,
+header .menu .sub_menu a.active:after
+{
+    width: 27px;
 }
 
 
